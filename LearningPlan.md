@@ -1,9 +1,10 @@
 # "The Case of the Missing Root Beer" - Summer Learning Project
 
 ## Project Overview
-- **Story**: A mystery/comedy about Blue Planet Six searching for his stolen root beer and missing friend Pudding
+- **Genre**: 2D RPG Mystery/Adventure
+- **Story**: A mystery/comedy about Blue Planet Six exploring the world to find his stolen root beer and missing friend Pudding
 - **Characters**: Blue (protagonist), Owl (companion), Pudding (raccoon friend), Miskers (villain), Scrappy Blue (annoying nephew)
-- **Current Status**: Complete playable story with multiple endings but needs assets and enhancements
+- **Current Status**: Story converted to RPG format with exploration, quests, and character interactions
 
 ## Getting Help with AI
 Throughout this learning journey, you can use AI assistants (like ChatGPT, Claude, or others) to get help with coding questions, creative ideas, and problem-solving. **See the [LLM-Assistant-Guide.md](LLM-Assistant-Guide.md) file for detailed instructions on how to effectively use AI as your learning partner.** This guide includes sample questions for each week, debugging tips, and best practices for learning with AI assistance.
@@ -12,158 +13,159 @@ Throughout this learning journey, you can use AI assistants (like ChatGPT, Claud
 
 ### Week 1: Getting Started & Understanding
 **Day 1: Project Setup**
-- Set up Ren'Py development environment
-- Run the game and play through all paths
-- Create a character relationship chart
+- Install RPG Maker MZ and explore the interface
+- Play through the base game template to understand RPG mechanics
+- Create character concept sketches and story outline
 
-**Day 2: Story Analysis**
-- Write character descriptions for each main character
-- Map out the story flow on paper/digital tool
-- Identify all the different endings
+**Day 2: RPG Maker Basics**
+- Learn the map editor and create Blue's house interior
+- Understand events, switches, and variables
+- Create your first NPC dialogue event
 
-**Day 3: Asset Planning**
-- Create a list of all missing images (characters, backgrounds, items)
-- Plan what each character should look like
-- Sketch basic character designs
+**Day 3: Character Design**
+- Design Blue's RPG character sprite (4-direction walking animation)
+- Learn about character sprite requirements (32x32 pixel grid)
+- Create basic walking animation frames
 
-**Day 4: Character Sprites - Blue**
-- Create simple placeholder sprite for Blue (normal, annoyed, angry, happy)
-- Learn about image dimensions and file formats
-- Test sprites in game
+**Day 4: World Building**
+- Create the overworld map with Blue's house and Miskko HQ
+- Learn about tileset usage and map layering
+- Add basic environmental details and paths
 
-**Day 5: Character Sprites - Supporting Cast**
-- Create sprites for Owl, Pudding, Miskers, Scrappy
-- Add different expressions for each
-- Test all character displays
+**Day 5: Quest System Setup**
+- Create the main quest: "Find the Missing Root Beer"
+- Learn about quest flags and tracking variables
+- Set up the quest log system
 
-### Week 2: Visual Assets
-**Day 6: Background Art - Home**
-- Create Blue's home background
-- Learn about scene composition
-- Implement and test in game
+### Week 2: Character & World Assets
+**Day 6: Character Sprites**
+- Create Owl companion sprite with 4-direction animation
+- Design NPC sprites for Pudding, Miskers, and Scrappy Blue
+- Learn about character sprite sheets and animation timing
 
-**Day 7: Background Art - Miskko HQ**
-- Create Miskko headquarters exterior and interior backgrounds
-- Focus on the bizarre, maze-like architecture described in story
+**Day 7: Miskko HQ Interior**
+- Design the maze-like Miskko headquarters interior maps
+- Create multiple floors with different themes and puzzles
+- Add interactive objects and hidden passages
 
-**Day 8: Items & Props**
-- Create root beer bottle image
-- Design clue items (footprints, notes)
-- Add any missing props
+**Day 8: Items & Inventory**
+- Create root beer bottle item icon and description
+- Design clue items (footprints, notes, keys)
+- Set up the inventory system and item interactions
 
-**Day 9: GUI Customization**
-- Customize the game's interface colors
-- Change fonts to match the game's tone
-- Test on different screen sizes
+**Day 9: Companion System**
+- Program Owl as a permanent party companion
+- Create companion dialogue and interaction events
+- Add companion-specific abilities or story elements
 
-**Day 10: Audio Planning**
-- Research royalty-free music and sound effects
-- Plan audio for different scenes and character moods
-- Create audio file organization system
+**Day 10: Audio Integration**
+- Add background music for different areas (home, overworld, Miskko HQ)
+- Include sound effects for walking, interactions, and discoveries
+- Create audio cues for important story moments
 
-### Week 3: Enhanced Storytelling
-**Day 11: Dialogue Polish**
-- Review and improve character dialogue
-- Add more personality-specific speech patterns
-- Ensure each character has a distinct voice
+### Week 3: Interactive Storytelling
+**Day 11: NPC Dialogue System**
+- Create rich dialogue trees for main characters
+- Add personality-specific speech patterns and reactions
+- Implement relationship tracking with different NPCs
 
-**Day 12: New Scene - Investigation**
-- Add a new investigation scene with more interactive elements
-- Include inventory system for collecting clues
-- Create mini-puzzles
+**Day 12: Investigation Mechanics**
+- Create interactive clue-finding events throughout Miskko HQ
+- Add puzzle elements that require combining inventory items
+- Design logic puzzles that reveal story information
 
-**Day 13: Character Development**
-- Add backstory elements for main characters
-- Create optional dialogue to learn more about relationships
-- Add character depth without changing main story
+**Day 13: Character Backstories**
+- Add optional NPCs and areas that reveal character histories
+- Create side quests that develop Blue, Owl, and other characters
+- Add character-specific dialogue based on previous interactions
 
-**Day 14: Branching Paths**
-- Add more meaningful choices that affect story outcomes
-- Create consequence system for player decisions
-- Test all new story branches
+**Day 14: Multiple Story Endings**
+- Create different ending scenarios based on player choices
+- Add consequence tracking for major decisions
+- Test all story branches and ensure they're satisfying
 
-**Day 15: Easter Eggs**
-- Add hidden jokes and references
-- Create secret scenes or dialogue options
-- Include fun interactions with background elements
+**Day 15: Secret Areas & Easter Eggs**
+- Hide bonus areas and secret rooms in Miskko HQ
+- Add hidden references and jokes throughout the world
+- Create optional interactions that reward thorough exploration
 
-### Week 4: Advanced Features
-**Day 16: Inventory System**
-- Implement simple inventory for clues and items
-- Create inventory screen
-- Link inventory items to story progression
+### Week 4: Advanced RPG Features
+**Day 16: Advanced Inventory System**
+- Create categorized inventory (clues, keys, items)
+- Add item combination mechanics for puzzle solving
+- Implement inventory-based quest progression
 
-**Day 17: Character Stats**
-- Add "annoyance level" visual indicator
-- Create relationship tracking with other characters
-- Show how choices affect character dynamics
+**Day 17: Relationship & Mood System**
+- Add "annoyance level" tracking that affects gameplay
+- Create visual indicators for character relationships
+- Make NPC reactions change based on player choices
 
-**Day 18: Mini-Games**
-- Create simple puzzle or logic game for finding clues
-- Add arcade-style element to make investigation more interactive
-- Keep it simple but engaging
+**Day 18: Custom Plugins**
+- Install and configure useful RPG Maker plugins
+- Add quality-of-life improvements (save anywhere, quest tracker)
+- Create custom events for unique game mechanics
 
-**Day 19: Save System Enhancement**
-- Add custom save game screenshots
-- Create chapter selection system
-- Add achievements or progress tracking
+**Day 19: Progress Tracking**
+- Add achievement system for exploration and story milestones
+- Create chapter selection and save game management
+- Implement completion percentage tracking
 
-**Day 20: Animation Basics**
-- Add simple character animations (blinking, gestures)
-- Create smooth scene transitions
-- Learn basic animation in Ren'Py
+**Day 20: Advanced Events**
+- Create complex event chains with multiple triggers
+- Add conditional events based on player progress
+- Design branching conversations with multiple outcomes
 
 ### Week 5: Polish & Enhancement
-**Day 21: Music Integration**
-- Add background music for different scenes
-- Create mood-appropriate soundscapes
-- Add sound effects for actions and transitions
+**Day 21: Audio Polish**
+- Fine-tune background music transitions between areas
+- Add ambient sounds for different environments
+- Create sound effects for all interactive elements
 
-**Day 22: Voice Acting (Optional)**
-- Record character voices for key dialogue
-- Learn audio editing basics
-- Add voice toggle option
+**Day 22: Visual Effects**
+- Add particle effects for special moments (finding clues, story reveals)
+- Create screen tints and lighting effects for mood
+- Add simple animations for important story beats
 
-**Day 23: Accessibility Features**
-- Add text size options
-- Include colorblind-friendly design choices
-- Create auto-advance dialogue option
+**Day 23: User Interface Polish**
+- Customize the game's UI theme to match the story
+- Add custom fonts and menu designs
+- Create informative tooltips and help systems
 
-**Day 24: Mobile Compatibility**
-- Test game on different screen sizes
-- Adjust UI for touch devices
-- Optimize for tablet/phone play
+**Day 24: Quality Assurance**
+- Test all possible story paths and interactions
+- Check for softlocks and progression issues
+- Ensure all maps are properly connected and functional
 
 **Day 25: Performance Optimization**
-- Optimize image file sizes
-- Clean up unused assets
-- Test loading times and smooth gameplay
+- Optimize map sizes and reduce unnecessary events
+- Clean up unused assets and streamline code
+- Test game performance on different devices
 
 ### Week 6: Testing & Feedback
 **Day 26: Beta Testing**
-- Have family/friends play through the game
-- Document bugs and feedback
-- Create bug tracking system
+- Have family/friends play through the complete RPG
+- Document gameplay issues, bugs, and feedback
+- Test all story paths and endings
 
-**Day 27: Bug Fixes**
-- Fix any crashes or errors found during testing
-- Improve unclear story elements
-- Polish rough edges
+**Day 27: Bug Fixes & Balance**
+- Fix any progression issues or event errors
+- Adjust puzzle difficulty based on feedback
+- Improve unclear quest objectives or directions
 
-**Day 28: Content Balance**
-- Adjust difficulty of puzzles/choices
-- Ensure all story paths are equally interesting
-- Balance humor and mystery elements
+**Day 28: Game Balance**
+- Fine-tune exploration pacing and difficulty
+- Ensure all story paths provide satisfying experiences
+- Balance humor, mystery, and gameplay elements
 
 **Day 29: Final Polish**
-- Perfect the opening and ending sequences
-- Add credits screen with personal information
-- Create compelling game description
+- Perfect the opening tutorial and ending sequences
+- Add credits screen and game information
+- Create engaging title screen and main menu
 
-**Day 30: Documentation**
-- Write a guide explaining how the game was made
-- Document all custom features added
-- Create "making of" document
+**Day 30: Documentation & Sharing**
+- Write a development diary about creating the RPG
+- Document custom events and mechanics for future reference
+- Prepare the game for sharing with others
 
 ### Week 7-8: Advanced Projects (Optional)
 **Day 31-35: New Story Arc**
@@ -177,12 +179,12 @@ Throughout this learning journey, you can use AI assistants (like ChatGPT, Claud
 - Learn about sharing games with others
 
 ## Learning Objectives Met:
-- **Programming**: Ren'Py scripting, conditional logic, variables
-- **Art**: Digital art creation, sprite design, background composition
-- **Audio**: Sound editing, music integration, voice recording
-- **Game Design**: Player choice consequences, pacing, user experience
-- **Project Management**: Task planning, version control, testing
-- **Problem Solving**: Debugging, optimization, feature implementation
+- **Game Development**: RPG Maker event system, variables, switches, and conditional logic
+- **Art**: Character sprite creation, tileset usage, map design, and UI customization
+- **Audio**: Music integration, sound effects, and ambient audio design
+- **Game Design**: Quest systems, exploration mechanics, player progression, and story pacing
+- **Project Management**: Task planning, feature implementation, testing, and documentation
+- **Problem Solving**: Debugging events, optimizing performance, and balancing gameplay
 
 ## ADHD-Friendly Adaptations:
 - **Clear Daily Goals**: Each day has specific, achievable objectives
@@ -193,11 +195,11 @@ Throughout this learning journey, you can use AI assistants (like ChatGPT, Claud
 - **Break Tasks**: Can be split into smaller 30-60 minute sessions
 
 ## Project Benefits:
-The project is perfectly set up as a learning vehicle! The existing story has:
-- **Complete narrative structure** with multiple branching paths and endings
-- **Rich character relationships** the teen already understands
-- **Missing visual/audio assets** providing clear creative tasks
-- **Room for expansion** without breaking existing functionality
-- **Built-in complexity** that can be enhanced gradually
+The RPG adaptation is perfectly designed as a learning vehicle! The story provides:
+- **Established characters and world** that translate naturally to RPG exploration
+- **Clear quest structure** with the root beer mystery as the main storyline
+- **Multiple areas to design** (home, overworld, Miskko HQ) providing varied mapping challenges
+- **Character progression** through relationship building and story discovery
+- **Expandable gameplay** that can grow in complexity as skills develop
 
-This structure will let the teenager start with simple asset creation and gradually work up to more complex features like inventory systems and mini-games, all while building on characters and a story they already know and love.
+This structure lets learners start with basic map creation and character movement, then gradually add complex features like quest systems, inventory mechanics, and interactive storytelling, all while working with familiar characters and plot elements.
