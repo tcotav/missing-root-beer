@@ -1,10 +1,10 @@
 # BlueGame - The Case of the Missing Root Beer
 
-A Ren'Py mystery/comedy game designed as a summer learning project for teaching game development.
+A 2D RPG mystery/adventure game designed as a summer learning project for teaching game development with RPG Maker.
 
 ## About the Game
 
-Join Blue Planet Six and his friends as they investigate the mysterious disappearance of Blue's special root beer and his raccoon friend Pudding. Navigate through the bizarre Miskko headquarters, solve puzzles, and uncover the truth behind this silly mystery!
+Join Blue Planet Six on an RPG adventure to find his stolen root beer and missing friend Pudding! Explore the neighborhood, investigate clues, and venture into the maze-like Miskko headquarters. Battle through puzzles, interact with quirky characters, and discover multiple ways to solve this comedic mystery!
 
 **Characters:**
 - Blue Planet Six - The frustrated protagonist
@@ -15,13 +15,14 @@ Join Blue Planet Six and his friends as they investigate the mysterious disappea
 
 ## Project Status
 
-This is a **complete, playable Ren'Py game** with multiple story paths and endings. However, it currently uses placeholder assets and is designed to be enhanced as part of a structured learning experience.
+This project includes a **complete story design** adapted for RPG gameplay with exploration, quests, and character interactions. The game uses RPG Maker's built-in assets initially and is designed to be enhanced as part of a structured learning experience.
 
 ## Getting Started
 
-1. Install [Ren'Py](https://www.renpy.org/latest.html)
-2. Open this project folder in Ren'Py Launcher
-3. Click "Launch Project" to play the game
+1. Install [RPG Maker MZ](https://www.rpgmakerweb.com/products/rpg-maker-mz) (recommended) or RPG Maker MV
+2. Open this project folder in RPG Maker
+3. Use the "Test Play" function to play the game
+4. Follow the [Learning Plan](LearningPlan.md) to enhance and customize the game
 
 ## Learning Resources
 
@@ -29,25 +30,27 @@ This project includes comprehensive learning materials:
 
 - **[📚 Learning Plan](LearningPlan.md)** - 40-day structured curriculum for game development
 - **[🤖 AI Assistant Guide](LLM-Assistant-Guide.md)** - How to use AI tools effectively for learning
-- **[🎮 Ren'Py Game Info](renpy-game-readme.md)** - Technical details about the game structure
+- **[🎮 RPG Technical Guide](RPG-Technical-Guide.md)** - Technical details about the RPG structure and development
 
 ## Features
 
-- Complete branching narrative with multiple endings
-- Character relationship system with "annoyance tracking"
-- Interactive investigation mechanics
-- Multiple story paths based on player choices
-- Mystery elements with clues and deduction
+- Exploration-based RPG gameplay with multiple connected areas
+- Quest system with main mystery storyline and optional side quests
+- Character companion system (Owl as permanent party member)
+- Interactive investigation mechanics with item collection and puzzle solving
+- Multiple story endings based on player choices and exploration
+- Character relationship tracking that affects dialogue and story outcomes
 
 ## Learning Objectives
 
 This project teaches:
-- Ren'Py scripting and game development
-- Digital art creation and sprite design
-- Audio integration and sound design
-- User interface and experience design
-- Project management and testing
-- Creative writing and character development
+- RPG Maker event system and game development
+- Map design and tileset usage
+- Character sprite creation and animation
+- Quest design and narrative implementation
+- Audio integration and environmental design
+- User interface customization and player experience design
+- Project management, testing, and game balancing
 
 ## Target Audience
 
@@ -60,15 +63,16 @@ Designed specifically for teenagers learning game development, with ADHD-friendl
 ## Contributing
 
 This is a learning project! Feel free to:
-- Add your own character designs
-- Create new story branches
-- Enhance the UI and visual effects
-- Add music and sound effects
-- Implement new gameplay features
+- Design custom maps and areas
+- Create original character sprites and tilesets
+- Add new quests and story branches
+- Implement custom events and gameplay mechanics
+- Enhance audio and visual effects
+- Create plugins or custom scripts
 
 ## License
 
-This project is intended for educational use. Feel free to use it as a learning resource or starting point for your own Ren'Py games.
+This project is intended for educational use. Feel free to use it as a learning resource or starting point for your own RPG Maker games.
 
 ---
 

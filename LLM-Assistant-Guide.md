@@ -1,15 +1,15 @@
-# Using AI Assistants for Ren'Py Game Development
+# Using AI Assistants for RPG Maker Game Development
 
 ## Overview
-This guide explains how to effectively use Large Language Models (LLMs) like ChatGPT, Claude, or other AI assistants to help with your Ren'Py game development learning journey. AI can be an excellent tutor, coding partner, and creative collaborator when used properly.
+This guide explains how to effectively use Large Language Models (LLMs) like ChatGPT, Claude, or other AI assistants to help with your RPG Maker game development learning journey. AI can be an excellent tutor, coding partner, and creative collaborator when used properly.
 
 ## What AI Can Help With
 
-### Programming & Scripting
-- **Ren'Py Syntax**: Ask for help with specific Ren'Py commands and syntax
-- **Code Debugging**: Paste error messages to get explanations and fixes
-- **Feature Implementation**: Request step-by-step guides for adding new features
-- **Code Review**: Ask AI to review your code and suggest improvements
+### Programming & Events
+- **RPG Maker Events**: Ask for help with event commands and conditional logic
+- **Plugin Implementation**: Get guidance on installing and configuring plugins
+- **Variable & Switch Management**: Request help with tracking game progress and states
+- **Event Debugging**: Paste screenshots or describe issues to get troubleshooting help
 
 ### Creative Development
 - **Story Ideas**: Brainstorm new scenes, dialogue, or plot twists
@@ -18,108 +18,108 @@ This guide explains how to effectively use Large Language Models (LLMs) like Cha
 - **Scene Descriptions**: Get help writing engaging narrative text
 
 ### Art & Design Guidance
-- **Color Palette Suggestions**: Ask for color schemes that match your game's mood
-- **Character Design Ideas**: Get suggestions for character appearances and outfits
-- **UI/UX Advice**: Ask about best practices for game interface design
-- **Asset Organization**: Get tips on organizing and naming your game files
+- **Sprite Creation**: Ask for help with character sprite design and animation frames
+- **Tileset Design**: Get guidance on creating and organizing custom tilesets
+- **Map Design**: Request tips for creating engaging and functional game maps
+- **UI Customization**: Ask about customizing RPG Maker's interface and menus
 
 ### Technical Problem Solving
-- **Performance Issues**: Ask about optimizing your game's performance
-- **File Format Questions**: Get advice on image formats, audio formats, etc.
-- **Cross-Platform Compatibility**: Ask about making your game work on different devices
-- **Testing Strategies**: Get suggestions for thorough game testing approaches
+- **Performance Optimization**: Ask about optimizing maps, events, and game performance
+- **Asset Requirements**: Get advice on sprite sizes, audio formats, and file organization
+- **Deployment Options**: Ask about exporting and distributing your RPG Maker game
+- **Testing Strategies**: Get suggestions for thorough game testing and bug detection
 
 ## How to Ask Effective Questions
 
 ### Be Specific
 ❌ **Poor**: "My game doesn't work"
-✅ **Good**: "I'm getting a 'KeyError: 'blue_normal'' error when trying to show my character sprite. Here's the code: [paste code]"
+✅ **Good**: "My character isn't moving when I press the arrow keys. I set up a transfer event but nothing happens when I test play."
 
 ### Provide Context
 ❌ **Poor**: "How do I add music?"
-✅ **Good**: "I'm working on Day 21 of my learning plan and want to add background music to the home scene in my Ren'Py game. I have an .ogg file ready."
+✅ **Good**: "I'm working on Day 10 of my learning plan and want to add background music to Blue's house map in my RPG Maker game. I have an .ogg file ready."
 
 ### Include Your Current Skill Level
 ❌ **Poor**: "Explain variables"
-✅ **Good**: "I'm new to programming and working on a Ren'Py game. Can you explain how variables work in simple terms with an example from my mystery game?"
+✅ **Good**: "I'm new to RPG Maker and working on a mystery game. Can you explain how variables work in simple terms with an example from my quest system?"
 
 ### Ask for Learning, Not Just Answers
-❌ **Poor**: "Write the code for an inventory system"
-✅ **Good**: "Can you guide me through creating a simple inventory system for my Ren'Py game? I want to understand each step so I can modify it later."
+❌ **Poor**: "Create an inventory system for me"
+✅ **Good**: "Can you guide me through creating a simple inventory system using RPG Maker events? I want to understand each step so I can modify it later."
 
 ## Sample Questions for Each Week
 
 ### Week 1 Questions
-- "What's the standard size for character sprites in Ren'Py games?"
-- "How do I organize my game files and folders for best practices?"
-- "Can you explain how the 'define' command works in Ren'Py with examples?"
-- "What image formats work best for Ren'Py sprites and backgrounds?"
+- "What's the standard size for character sprites in RPG Maker games?"
+- "How do I organize my RPG Maker project files and folders for best practices?"
+- "Can you explain how events work in RPG Maker with simple examples?"
+- "What image formats work best for RPG Maker character sprites and tilesets?"
 
 ### Week 2 Questions
-- "What resolution should I use for background images in a 1920x1080 Ren'Py game?"
-- "How do I make my character sprites look good against different backgrounds?"
-- "Can you suggest color palettes that would work for a mystery/comedy game?"
-- "What's the difference between PNG and JPG for game assets?"
+- "What tile size should I use for my RPG Maker maps?"
+- "How do I create character sprites that work well with RPG Maker's animation system?"
+- "Can you suggest color palettes that would work for a mystery/comedy RPG?"
+- "What's the difference between character sprites and NPC sprites in RPG Maker?"
 
 ### Week 3 Questions
-- "How can I make each character's dialogue sound unique and memorable?"
-- "What are some good techniques for writing branching dialogue in Ren'Py?"
-- "Can you help me brainstorm Easter eggs that would fit my mystery game?"
-- "How do I create meaningful choices that affect the story outcome?"
+- "How can I make each NPC's dialogue sound unique and memorable?"
+- "What are some good techniques for creating branching dialogue using RPG Maker events?"
+- "Can you help me brainstorm hidden areas and secrets that would fit my mystery RPG?"
+- "How do I create meaningful player choices that affect the story outcome using switches?"
 
 ### Week 4 Questions
-- "Can you walk me through creating a simple inventory system in Ren'Py?"
-- "How do I create a visual indicator for the 'annoyance level' variable?"
-- "What are some simple mini-games I could add to my mystery game?"
-- "How do I implement a basic achievement system?"
+- "Can you walk me through creating a simple quest tracking system using RPG Maker events?"
+- "How do I create a visual indicator for relationship levels using variables?"
+- "What are some simple puzzle mechanics I could add to my mystery RPG?"
+- "How do I implement a basic achievement system using switches and variables?"
 
 ### Week 5 Questions
-- "What audio formats work best for Ren'Py games?"
-- "How do I sync background music changes with scene transitions?"
-- "What are some accessibility features I should consider for my game?"
-- "How do I optimize my game for mobile devices?"
+- "What audio formats work best for RPG Maker games?"
+- "How do I sync background music changes with map transfers?"
+- "What are some accessibility features I should consider for my RPG?"
+- "How do I optimize my RPG Maker game for better performance?"
 
 ### Week 6 Questions
-- "What should I look for when testing my Ren'Py game?"
-- "How do I create a bug tracking system for my game development?"
-- "What are common mistakes new Ren'Py developers make?"
-- "How do I balance difficulty in story choices and puzzles?"
+- "What should I look for when testing my RPG Maker game?"
+- "How do I create a bug tracking system for my RPG development?"
+- "What are common mistakes new RPG Maker developers make?"
+- "How do I balance difficulty in exploration and puzzle solving?"
 
 ## Debugging with AI
 
 ### Common Error Types and How to Ask for Help
 
-**Syntax Errors**
-- Copy the exact error message
-- Include the line of code causing the error
-- Ask: "I'm getting this error: [error message]. Here's my code: [code]. What does this mean and how do I fix it?"
+**Event Execution Errors**
+- Take a screenshot of the problematic event
+- Describe what you expected to happen
+- Ask: "My event isn't working as expected. Here's a screenshot of my event setup: [screenshot]. What might be wrong?"
 
 **Logic Errors**
 - Describe what you expected to happen
 - Describe what actually happened
-- Ask: "My game should do X when I click Y, but instead it does Z. Here's the relevant code: [code]"
+- Ask: "My game should do X when I interact with Y, but instead it does Z. Here's my event setup: [description or screenshot]"
 
 **Asset Loading Issues**
-- Include file names and folder structure
-- Copy the error message
-- Ask: "My image/audio file won't load. Here's my file structure and the error: [details]"
+- Include file names and folder structure within your RPG Maker project
+- Describe the expected behavior
+- Ask: "My sprite/tileset/audio file won't display properly. Here's my file structure and what I expected: [details]"
 
 ## Creative Collaboration Tips
 
 ### Brainstorming Sessions
-- Ask open-ended questions: "What are some creative ways Blue could discover clues?"
-- Request alternatives: "Give me 5 different ways this scene could end"
-- Seek inspiration: "What are some funny situations that could happen in a corporate headquarters?"
+- Ask open-ended questions: "What are some creative ways Blue could discover clues while exploring?"
+- Request alternatives: "Give me 5 different ways this quest could be completed"
+- Seek inspiration: "What are some funny situations that could happen in different areas of an RPG?"
 
 ### Character Development
-- Ask for character backstories: "Help me develop Pudding's background story"
-- Request dialogue examples: "Show me how Scrappy Blue would react to being caught"
-- Explore relationships: "How could Blue and Owl's friendship be developed further?"
+- Ask for character backstories: "Help me develop Pudding's background story for NPC interactions"
+- Request dialogue examples: "Show me how Scrappy Blue would react to being caught in an RPG dialogue tree"
+- Explore relationships: "How could Blue and Owl's companion relationship be developed through gameplay?"
 
 ### Story Enhancement
-- Ask for plot twists: "What unexpected reveals could make the mystery more interesting?"
-- Request pacing advice: "Does this story flow well? How can I improve the pacing?"
-- Seek feedback: "What parts of my story might be confusing to players?"
+- Ask for plot twists: "What unexpected reveals could make the mystery more interesting in an exploration-based RPG?"
+- Request pacing advice: "Does this quest flow well? How can I improve the pacing of exploration and discovery?"
+- Seek feedback: "What parts of my RPG story might be confusing to players navigating the world?"
 
 ## Learning Best Practices
 
@@ -147,7 +147,7 @@ This guide explains how to effectively use Large Language Models (LLMs) like Cha
 1. **Provide more context** about your specific setup
 2. **Ask for simpler alternatives** if the solution is too complex
 3. **Request step-by-step breakdown** of complex solutions
-4. **Specify your Ren'Py version** as syntax can vary
+4. **Specify your RPG Maker version** (MZ, MV, etc.) as features can vary
 
 ### When You're Stuck
 1. **Break down the problem** into smaller parts
@@ -164,11 +164,11 @@ This guide explains how to effectively use Large Language Models (LLMs) like Cha
 ## Remember: AI is Your Learning Partner
 
 - AI can provide guidance, but you're building the skills
-- Always understand the code before using it
+- Always understand the event logic before implementing it
 - Experiment and modify suggestions to make them your own
 - Use AI to accelerate learning, not replace it
 - Ask questions when you don't understand something
-- The goal is to become an independent game developer
+- The goal is to become an independent RPG developer
 
 ## Getting Started
 
